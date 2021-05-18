@@ -1,0 +1,10 @@
+output_path: data/models/distilbert_wordpiece_3600
+preprocess:
+  tokenizer_path: data/tokenizers/wordpiece_3600.json
+  max_len: 32
+model:
+  input_shape: 32
+  transformer_model: data/lm_models/wordpiece_3600/final/
+train:
+  epochs: 5
+  batch_size: 64

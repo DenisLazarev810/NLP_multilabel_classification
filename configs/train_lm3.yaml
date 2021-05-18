@@ -1,0 +1,7 @@
+tokenizer_path: data/tokenizers/unigram_3000.json
+vocab_size: 16000
+mlm_probability:  0.2
+output_path: data/lm_models/distilbert_lm_unigram_3000
+num_train_epochs: 7
+learning_rate: 5e-5
+batch_size: 16
